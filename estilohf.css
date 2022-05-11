@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Italianno&family=Poppins&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.contenedor{
+	display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 100px 800px 50px;  
+  grid-template-areas: 
+    "header  header  header"
+    "section section section"
+    "footer  footer  footer"; 
+  width: 100%; 
+}
+
+.header{
+	background-color: #edae49;
+	grid-area: header;
+}
+
+.logo{
+	grid-column: 1;
+	grid-row: 1;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 19px;
+}
+
+h1{
+	 color: #ffffff;
+	font-family: 'Calligraffitti', cursive ;
+}
+
+.titulo{
+	grid-column: 1;
+	grid-row: 1;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 65px;
+	text-decoration: none;
+}
+
+h3{
+	font-family: 'Italianno', cursive;
+	color: #000000;
+}
+
+h3:hover{
+	color: #ffffff;
+}
+
+.historia1{
+	grid-column: 2;
+	grid-row: 1;
+	margin: auto;
+	font-size: 25px;
+}
+
+.filosofia1{
+	grid-column: 2;
+	grid-row: 1;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 74%;
+	font-size: 25px;
+}
+
+.artistas1{
+	grid-column: 3;
+	grid-row: 1;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 25px;
+	margin-left: 3%
+}
+
+.galeria1{
+	grid-column: 3;
+	grid-row: 1;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 34%;
+	font-size: 25px;
+}
+
+.contacto1{
+	grid-column: 3;
+	grid-row: 1;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 25px;
+	margin-left: 63%;
+}
+
+.section{
+	grid-area: section;
+	background-color: #00798c;
+}
+
+.historiatit{
+	grid-column: 2;
+	grid-row: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 7%;
+	font-family: 'Calligraffitti', cursive ;
+	font-size: 40px;
+	color: #ffffff;
+}
+
+.stroke{
+	grid-column: 2;
+	grid-row: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4%;
+}
+
+.stroke2{
+	grid-column: 1;
+	grid-row: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
+}
+
+.contextotit{
+	grid-column: 1;
+	grid-row: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
+	font-family: 'Calligraffitti', cursive ;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+p{
+	font-family: 'Poppins', sans-serif;
+	color: #ffffff;
+}
+
+.contexto{
+	grid-column: 1;
+	grid-row: 2;
+	margin: auto;
+	margin-top: 20%;
+	padding: 10%;
+	font-size: 16px;
+}
+
+.tren{
+	grid-column: 2;
+	grid-row: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30%;
+}
+
+.ciudad{
+	grid-column: 2;
+	grid-row: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 95%;
+}
+
+.artistastit{
+	grid-column: 3;
+	grid-row: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
+	font-family: 'Calligraffitti', cursive ;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.stroke3{
+	grid-column: 3;
+	grid-row: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
+}
+
+.artistas{
+	grid-column: 3;
+	grid-row: 2;
+	margin: auto;
+	margin-top: 20%;
+	padding: 10%;
+	font-size: 16px;
+}
+
+.footer{
+	background-color: #003d5b;
+	grid-area: footer;
+}
+
+h5{
+	color: #ffffff;
+	font-family:'Poppins', sans-serif;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.nombre{
+	grid-column: 1;
+	grid-row: 3;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 40px;
+}
+
+.impresionismo{
+	grid-column: 3;
+	grid-row: 3;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 352px;
+}
+
+.up{
+	grid-column: 2;
+	grid-row: 3;
+	margin: auto;
+}
+
+.form{
+	grid-column: 2;
+	grid-row: 2;
+	margin: auto;
+	margin-top: 49%;
+	padding: 3%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #97483c;
+	box-shadow: 3px 3px 1px  #003d5b;
+	border-radius: 15px;
+}
+
+.usuario{
+	grid-column: 2;
+	grid-row: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30%;
+	font-size: 33px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	color: #ffffff;
+}
+
+input{
+	background-color: #edae49;
+	border-radius: 5px;
+}
+
+textarea{
+	background-color: #edae49;
+	border-radius: 5px;
+}
+
+.boton{
+	padding: 1%;
+	float: right;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif; 
+	box-shadow: 3px 3px 1px  #003d5b;
+}
+
+.sol{
+	grid-column: 1;
+	grid-row: 2;
+	margin: auto;
+}
+
+.puente{
+	grid-column: 3;
+	grid-row: 2;
+	margin: auto;
+}
+
+.manet{
+	grid-column: 2;
+	grid-row: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 7%;
+	text-align: center;
+	font-family: 'Calligraffitti', cursive ;
+	font-size: 30px;
+	color: #ffffff;
+}
+
+.stroke4{
+	grid-column: 2;
+	grid-row: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8%;
+}
+
+.manetimg{
+	grid-column: 1;
+	grid-row: 2;
+	margin: auto;
+}
+
+.bio1{
+	grid-column: 2;
+	grid-row: 2;
+	font-size: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 31%;
+	padding: 5%;
+}
+
+.bio2{
+	grid-column: 3;
+	grid-row: 2;
+	font-size: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	padding: 5%;
+}
+
+.titmanet{
+	grid-column: 1;
+	grid-row: 1;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25%;
+	text-align: center;
+	font-family: 'Calligraffitti', cursive ;
+	font-size: 30px;
+	color: #ffffff;
+}
+
+.titmonet{
+	grid-column: 2;
+	grid-row: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 28%;
+	text-align: center;
+	font-family: 'Calligraffitti', cursive ;
+	font-size: 30px;
+	color: #ffffff;
+}
+
+.titrenoir{
+	grid-column: 3;
+	grid-row: 1;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25%;
+	text-align: center;
+	font-family: 'Calligraffitti', cursive ;
+	font-size: 30px;
+	color: #ffffff;
+}
+
+.manetart{
+	grid-column: 1;
+	grid-row: 2;
+	margin: auto;
+}
+
+.monetart{
+	grid-column: 2;
+	grid-row: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40%;
+}
+
+.renoirart{
+	grid-column: 3;
+	grid-row: 2;
+	margin: auto;
+}
+
+.stroke5{
+	grid-column: 1;
+	grid-row: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6%;
+}
+
+.stroke6{
+	grid-column: 2;
+	grid-row: 2;
+	margin-top: 29%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.stroke7{
+	grid-column: 3;
+	grid-row: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6%;
+}
+
+h2{
+	color: #ffffff;
+}
+
+.paintmonet{
+	grid-column: 3;
+	grid-row: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 85%
+}
+
+.paintrenoir{
+	grid-column: 3;
+	grid-row: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70%
+}
+
+.paintmanet{
+	grid-column: 3;
+	grid-row: 2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 85%
+}

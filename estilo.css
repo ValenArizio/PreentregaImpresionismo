@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Italianno&family=Poppins&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.contenedor{
+display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 100px 800px 50px;  
+  grid-template-areas: 
+    "header  header   header header  header"
+    "section section2 nav    article aside"
+    "footer  footer   footer footer  footer"; 
+  width: 100%; 
+}
+
+.header{
+	background-color: #edae49;
+	grid-area: header;
+}
+
+.logo{
+	grid-column: 1;
+	grid-row: 1;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 19px;
+}
+
+h1{
+	 color: #ffffff;
+	font-family: 'Calligraffitti', cursive ;
+}
+
+.titulo{
+	grid-column: 1;
+	grid-row: 1;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 65px;
+	text-decoration: none;
+	
+}
+
+h3{
+	font-family: 'Italianno', cursive;
+	color: #000000;
+}
+
+h3:hover{
+	color: #ffffff;
+}
+
+.historia1{
+	grid-column: 3;
+	grid-row: 1;
+	margin: auto;
+	font-size: 25px;
+}
+
+.filosofia1{
+	grid-column: 3;
+	grid-row: 1;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 90%;
+	font-size: 25px;
+}
+
+.artistas1{
+	grid-column: 4;
+	grid-row: 1;
+	margin: auto;
+	font-size: 25px;
+}
+
+.galeria1{
+	grid-column: 4;
+	grid-row: 1;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 90%;
+	font-size: 25px;
+}
+
+.contacto1{
+	grid-column: 5;
+	grid-row: 1;
+	margin: auto;
+	font-size: 25px;
+}
+
+.section{
+	background-color: #000000;
+	grid-area: section;
+	background: url(historiaimg.jpg) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.section2{
+	background-color: #000000;
+	grid-area: section2;
+	background: url(filosofiaimg.jpg) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.nav{
+	background-color: #000000;
+	grid-area: nav;
+	background: url(artistasimg.jpg) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.article{
+	background-color: #000000;
+	grid-area: article;
+	background: url(galeriaimg.jpg) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.aside{
+	background-color: #000000;
+	grid-area: aside;
+	background: url(contactoimg.jpg) 0 0 no-repeat;
+	background-size: cover;
+
+}
+
+.footer{
+	background-color: #003d5b;
+	grid-area: footer;
+}
+
+.historia{
+	grid-column: 1;
+	grid-row: 2;
+	text-align: center;
+	margin: auto;
+	font-size: 25px;
+}
+
+.filosofia{
+	grid-column: 2;
+	grid-row: 2;
+	text-align: center;
+	margin: auto;
+	font-size: 25px;
+}
+
+.artistas{
+	grid-column: 3;
+	grid-row: 2;
+	text-align: center;
+	margin: auto;
+	font-size: 25px;
+}
+
+.galeria{
+	grid-column: 4;
+	grid-row: 2;
+	text-align: center;
+	margin: auto;
+	font-size: 25px;
+}
+
+.contacto{
+	grid-column: 5;
+	grid-row: 2;
+	text-align: center;
+	margin: auto;
+	font-size: 25px;
+}
+
+h2{
+	color: #ffffff;
+	font-family: 'Calligraffitti', cursive;
+	background-color: rgba(151, 72, 60, 0.5);
+}
+
+h5{
+	color: #ffffff;
+	font-family:'Poppins', sans-serif;;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.nombre{
+	grid-column: 1;
+	grid-row: 3;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 40px;
+}
+
+.impresionismo{
+	grid-column: 5;
+	grid-row: 3;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 150px;
+}
+
+.up{
+	grid-column: 3;
+	grid-row: 3;
+	margin: auto;
+}
